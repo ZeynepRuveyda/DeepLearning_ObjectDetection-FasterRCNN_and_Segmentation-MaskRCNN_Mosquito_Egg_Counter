@@ -1,6 +1,8 @@
 # Mosquitoes' Eggs Counting with Computer Vision Technologies Internship Project
 file:///home/criuser/Desktop/CRI%20Internship/coco%20json%20photos/task_eggl6-2020_08_20_14_39_22-coco%201.0/images/200728_eggs0006.tif![image](https://user-images.githubusercontent.com/72027409/122667401-12d17480-d1b3-11eb-9eb9-c442847351e0.png)
 
+https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.kqed.org%2Fscience%2F1960549%2Fthis-dangerous-mosquito-lays-her-armored-eggs-in-your-house&psig=AOvVaw1AOQ93KJV-lS4bPMU8TRWw&ust=1624266588380000&source=images&cd=vfe&ved=0CAoQjRxqFwoTCPCDm9zupfECFQAAAAAdAAAAABAD
+
 # Description of the project
 
 Female mosquitoes lay their eggs in water, and after hatching mosquito larvae spend a week in this aquatic environment before they fly away as adults. The microbial and chemical composition of the water in which they spend their childhood affects the health of the larvae and the adult mosquitoes they will turn into.
