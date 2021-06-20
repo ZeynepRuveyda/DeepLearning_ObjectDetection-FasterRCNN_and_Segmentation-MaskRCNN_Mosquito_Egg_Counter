@@ -1,7 +1,7 @@
 # Mosquitoes' Eggs Counting with Computer Vision Technologies Internship Project
 file:///home/criuser/Desktop/CRI%20Internship/coco%20json%20photos/task_eggl6-2020_08_20_14_39_22-coco%201.0/images/200728_eggs0006.tif![image](https://user-images.githubusercontent.com/72027409/122667401-12d17480-d1b3-11eb-9eb9-c442847351e0.png)
+500 × 281
 
-https://cdn.kqed.org/wp-content/uploads/sites/35/2020/04/DL706_Aedes_aegypti_mosquito_lays_eggs1.gif
 
 # Description of the project
 
