@@ -111,6 +111,7 @@ Pycharm, Google Colab Pro, Streamlit
 
 Deep Learning, OpenCV, Streamlit, Segmentation and object detection models, Python skills
 
+(For Project Management)
 Notion(https://www.notion.so/Project-management-26c800e772294358a464b1abc9236d03)
 
 # Our Website
