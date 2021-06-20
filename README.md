@@ -36,9 +36,7 @@ MASK-RCNN MODEL RESULT
 
 # Project Roadmap
 
-I tried the Mask-RCNN and Resunet models for segmentation, and the Faster-RCNN and Retinanet models for object detection within a period of 4 months. By updating the stages of our project, I aimed to improve our egg counting project only with object detection models, not by segmentation. And related to this, I tried the following methods to improve our model.
-
-    For the datasets part(I spent most of our effort to improve our datasets),
+I tried the Mask-RCNN and Resunet models for segmentation, and the Faster-RCNN and Retinanet models for object detection within a period of 4 months. By updating the stages of our project, I aimed to improve our egg counting project only with object detection models, not by segmentation. And related to this, I tried the following methods to improve our model. For the datasets part(I spent most of our effort to improve our datasets),
 
 *Mask-RCNN model; cropping image method and masking these images , Resunet model; use big image size and their masks images before loading datasets( I had just 13 images for train and validation datasets :) )
 
