@@ -20,9 +20,7 @@ The main challenge in the project is that our datasets is very small. We have ma
 
 FASTER-RCNN MODEL RESULTS
 
-![image](https://user-images.githubusercontent.com/72027409/122668172-27b00700-d1b7-11eb-8c1c-8ae75499328d.png)
-
-
+file:///home/criuser/Downloads/detectron_resnet50/faster_rcnn_R_50_DC5_1x.yaml/epoch40(97).png![image](https://user-images.githubusercontent.com/72027409/122831042-95f4e680-d2e9-11eb-8191-c8339c8ec18b.png)
 ![image](https://user-images.githubusercontent.com/72027409/122668173-2f6fab80-d1b7-11eb-97d4-7b55bd954d1a.png)
 ![image](https://user-images.githubusercontent.com/72027409/122668174-34ccf600-d1b7-11eb-9e0e-4a6c3ca74614.png)
 ![image](https://user-images.githubusercontent.com/72027409/122668178-38f91380-d1b7-11eb-9e39-884df669a090.png)
