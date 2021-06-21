@@ -3,25 +3,26 @@ file:///home/criuser/Desktop/CRI%20Internship/coco%20json%20photos/task_eggl6-20
 
 # Description of the project
 
-Female mosquitoes lay their eggs in water, and after hatching mosquito larvae spend a week in this aquatic environment before they fly away as adults. The microbial and chemical composition of the water in which they spend their childhood affects the health of the larvae and the adult mosquitoes they will turn into.
+Female mosquitoes lay their eggs near or in water, and after hatching mosquito larvae spend a week in this aquatic environment before they fly away as adults. The microbial and chemical composition of the water in which they spend their childhood affects the health of the larvae and the adult mosquitoes they will turn into. Previous research has shown that specific microbes or nutrients in the larval environment make for very healthy adult mosquitoes, whereas larval exposure to other compounds and bacterial strains decreases e.g the life-span of adult mosquitoes. It is unknown how female mosquitoes evaluate a body of water before she lays her precious eggs.
 
-Previous research has shown that specific microbes or nutrients in the larval environment make for very healthy adult mosquitoes, whereas larval exposure to other compounds and bacterial strains decreases e.g the life-span of adult mosquitoes. It is unknown if/how female mosquitoes evaluate a body of water before she lays her precious eggs.
-
-In our project, the calculation of the eggs in the next stage after the mosquitoes lay their eggs on the white plates in the cages that are per-formed and designed for reproduction. The main goal of the project is to detect the eggs on the plates with Computer Vision technologies, and to avoid wasting time by not dealing with egg counting.
+To characterize the environmental cues that influence the oviposition choices of mosquitoes, laboratory experiments in which mosquitoes can choose between several potential egg laying sites are often performed. In these experiments mosquitoes deposit eggs on an 'egg paper' that is partly submerged in the water of the egg laying site. It is common practice that the number of eggs deposited on the paper is counted by hand. This method is very labor intensive and prevents large-scale egg laying experiments. In our project, we aim to develop a computer vision pipeline that takes a photograph of an egg paper as input, and accurately determines the number of eggs deposited on the paper. One challenge is that eggs are often deposited in clusters and individual eggs may overlap, providing an interesting computer vision challenge. 
 
 # Our expectations
 
-Our expectation from this project is that with the deep learning models I apply, the best accuracy rate can be achieved and the best eggs number calculation can be made.
+We expect that applying a variety of deep learning models to this problem will result in an accurate algorithm to determine the number of eggs present on the image.
+
 
 # Main challenges that I have faced
 
-The main challenge in the project is that our datasets is very small. I have many overlapping and clustered eggs, and usually due to the ambient conditions (light reflection or staying in a dark spot) when photographing the nested eggs in the pictures, some of the eggs could not be displayed clearly, making it difficult for our model to learn the position of the eggs.
+The main challenge in the project is that our datasets is very small. We have many overlapping and clustered eggs, and usually due to the ambient conditions (light reflection or uneven illumination) when photographing the eggs, some of the eggs are not clearly visible, making it difficult for our model to learn the position of the eggs, and separate overlapping/clustered eggs.
 
-# Preliminary results
+
 
 FASTER-RCNN MODEL RESULTS
 
 ![image](https://user-images.githubusercontent.com/72027409/122668172-27b00700-d1b7-11eb-8c1c-8ae75499328d.png)
+
+
 ![image](https://user-images.githubusercontent.com/72027409/122668173-2f6fab80-d1b7-11eb-97d4-7b55bd954d1a.png)
 ![image](https://user-images.githubusercontent.com/72027409/122668174-34ccf600-d1b7-11eb-9e0e-4a6c3ca74614.png)
 ![image](https://user-images.githubusercontent.com/72027409/122668178-38f91380-d1b7-11eb-9e39-884df669a090.png)
