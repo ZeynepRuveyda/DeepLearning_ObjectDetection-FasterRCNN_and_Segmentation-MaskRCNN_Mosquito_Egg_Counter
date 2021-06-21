@@ -12,30 +12,13 @@ To characterize the environmental cues that influence the oviposition choices of
 We expect that applying a variety of deep learning models to this problem will result in an accurate algorithm to determine the number of eggs present on the image.
 
 
-# Main challenges that I have faced
+# Main challenges that we have faced
 
 The main challenge in the project is that our datasets is very small. We have many overlapping and clustered eggs, and usually due to the ambient conditions (light reflection or uneven illumination) when photographing the eggs, some of the eggs are not clearly visible, making it difficult for our model to learn the position of the eggs, and separate overlapping/clustered eggs.
 
-
-
-FASTER-RCNN MODEL RESULTS
-
-file:///home/criuser/Downloads/detectron_resnet50/faster_rcnn_R_50_DC5_1x.yaml/epoch40(97).png![image](https://user-images.githubusercontent.com/72027409/122831042-95f4e680-d2e9-11eb-8191-c8339c8ec18b.png)
-![image](https://user-images.githubusercontent.com/72027409/122668173-2f6fab80-d1b7-11eb-97d4-7b55bd954d1a.png)
-![image](https://user-images.githubusercontent.com/72027409/122668174-34ccf600-d1b7-11eb-9e0e-4a6c3ca74614.png)
-![image](https://user-images.githubusercontent.com/72027409/122668178-38f91380-d1b7-11eb-9e39-884df669a090.png)
-
-RESUNET MODEL RESULT
-
-![image](https://user-images.githubusercontent.com/72027409/122668239-6776ee80-d1b7-11eb-8292-caf361d75829.png)
-
-MASK-RCNN MODEL RESULT
-
-![image](https://user-images.githubusercontent.com/72027409/122668249-72318380-d1b7-11eb-9342-9a3418de5d05.png)
-
 # Project Roadmap
 
-I tried the Mask-RCNN and Resunet models for segmentation, and the Faster-RCNN and Retinanet models for object detection within a period of 4 months. By updating the stages of our project, I aimed to improve our egg counting project only with object detection models, not by segmentation. And related to this, I tried the following methods to improve our model. For the datasets part(I spent most of our effort to improve our datasets),
+We tried the Mask-RCNN and Resunet models for segmentation, and the Faster-RCNN and Retinanet models for object detection within a period of 4 months. By updating the stages of our project, We aimed to improve our egg counting project only with object detection models, not by segmentation. And related to this, We tried the following methods to improve our model. For the datasets part(I spent most of our effort to improve our datasets),
 
 *Mask-RCNN model; cropping image method and masking these images , Resunet model; use big image size and their masks images before loading datasets( I had just 13 images for train and validation datasets :) )
 
@@ -55,13 +38,13 @@ I tried the Mask-RCNN and Resunet models for segmentation, and the Faster-RCNN a
 
     Augmentation Part
 
--I used horizontally and vertically flip, changing gray scale image, brigtness and rotates methods
+-We used horizontally and vertically flip, changing gray scale image, brigtness and rotates methods
 
     Transfer Learning
 
 -Used the COCO Datasets weights
 
--For the Faster-RCNN , I used 10 different weights with backbone resnet50 and resnet101
+-For the Faster-RCNN , We used 10 different weights with backbone resnet50 and resnet101
 
     Configurations
 
@@ -88,6 +71,22 @@ The ideal approach would be to train all the initial models on smaller image siz
 -Changing backbone (resnet50,resnet101)
 
 -Play with iteration and epochs
+
+FASTER-RCNN MODEL RESULTS
+
+file:///home/criuser/Downloads/detectron_resnet50/faster_rcnn_R_50_DC5_1x.yaml/epoch40(97).png![image](https://user-images.githubusercontent.com/72027409/122831042-95f4e680-d2e9-11eb-8191-c8339c8ec18b.png)
+![image](https://user-images.githubusercontent.com/72027409/122668173-2f6fab80-d1b7-11eb-97d4-7b55bd954d1a.png)
+![image](https://user-images.githubusercontent.com/72027409/122668174-34ccf600-d1b7-11eb-9e0e-4a6c3ca74614.png)
+![image](https://user-images.githubusercontent.com/72027409/122668178-38f91380-d1b7-11eb-9e39-884df669a090.png)
+
+RESUNET MODEL RESULT
+
+![image](https://user-images.githubusercontent.com/72027409/122668239-6776ee80-d1b7-11eb-8292-caf361d75829.png)
+
+MASK-RCNN MODEL RESULT
+
+![image](https://user-images.githubusercontent.com/72027409/122668249-72318380-d1b7-11eb-9342-9a3418de5d05.png)
+
 
 # The Digital Sciences methods
 
