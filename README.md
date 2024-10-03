@@ -109,14 +109,16 @@ Pycharm, Google Colab Pro, Streamlit
 
 Deep Learning, OpenCV, Streamlit, Segmentation and object detection models, Python skills
 
-(For Project Management)
+# For Project Management
 Notion(https://www.notion.so/Project-management-26c800e772294358a464b1abc9236d03)
+
+# Reference Letter from Felix Hol
+[Reference Letter](./RefLetter_ZROzel_FH-1.pdf)
 
 # Projet video for last user
 [Download the video]([path/to/video.mp4](https://github.com/user-attachments/assets/fed3c235-00b3-464f-8ff8-3cd8e147495b))
 
-# Reference Letter from Felix Hol
-[Reference Letter](./RefLetter_ZROzel_FH-1.pdf)
+
 
 
 
